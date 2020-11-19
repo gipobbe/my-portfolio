@@ -33,7 +33,7 @@ const styles = css`
     color: #fff;
     background: #9d316e;
     background: url(${lineSvg}) center center fixed,
-      linear-gradient(45deg, #9d316e, #de2d3e);
+      linear-gradient(45deg, #6f22b9, #3a3d98);
     background-size: cover;
   }
   .experience.layout-wrapper .layout-inner {

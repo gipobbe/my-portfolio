@@ -16,13 +16,13 @@ const Menu = ({
   const defaultLinks = {
     home: { title: "Home", color: "#000", url: "/" },
     experience: {
-      title: "Experience",
+      title: "Esperienze",
       color: "#3a3d98",
       url: "/experience",
     },
     skills: { title: "Skills", color: "#d52d43", url: "/skills" },
     aboutMe: {
-      title: "About Me",
+      title: "Su di me",
       color: "#fff",
       url: "/about-me",
     },

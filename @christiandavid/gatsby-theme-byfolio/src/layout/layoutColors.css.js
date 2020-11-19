@@ -22,7 +22,7 @@ const styles = css`
   }
   .home.layout-wrapper .layout-inner {
     background: #0e0f11;
-    background: #0e0f11 url(${lineSvg}) center center fixed;
+    background: #696969 url(${lineSvg}) center center fixed;
     background-size: contain;
   }
   .home.layout-wrapper h1,
@@ -33,7 +33,7 @@ const styles = css`
     color: #fff;
     background: #9d316e;
     background: url(${lineSvg}) center center fixed,
-      linear-gradient(45deg, #9d316e, #de2d3e);
+      linear-gradient(45deg, #a18cd1, #fbc2eb);
     background-size: cover;
   }
   .experience.layout-wrapper .layout-inner {

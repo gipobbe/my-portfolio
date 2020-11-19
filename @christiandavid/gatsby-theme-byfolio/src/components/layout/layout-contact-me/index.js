@@ -147,7 +147,7 @@ const LayoutContactMe = ({ children, bgClassName }) => {
                       ico = key.toLocaleLowerCase()
                     } else {
                       title = "Download my CV"
-                      ico = "cv"
+                      ico = "../../../images/icon.png"
                     }
                     return (
                       <a

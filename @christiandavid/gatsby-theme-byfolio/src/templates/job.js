@@ -29,9 +29,9 @@ export default ({ data }) => {
           <div css={styles.jobtitleContent} data-test="content">
             <h1>{post.frontmatter.company}</h1>
             <h3>
-              {post.frontmatter.jobTitle}, {post.frontmatter.dateFrom}{" "}
+              {post.frontmatter.jobTitle}, da {post.frontmatter.dateFrom}{" "}
               {post.frontmatter.dateTo
-                ? ` to ${post.frontmatter.dateTo}`
+                ? ` a ${post.frontmatter.dateTo}`
                 : " Present"}
             </h3>
           </div>
@@ -44,11 +44,11 @@ export default ({ data }) => {
       <Skill
         skills={post.frontmatter.skills}
         type="static"
-        title="Tools used"
+        title="Strumenti utilizzati"
         style={{ overflow: "hidden", backgroundColor: "#fff" }}
         showLoadingAnimation={false}
-        description="The list of tools used here corresponds to the Languages, Frameworks,
-        Libraries or Apps that I used in each of the roles performed."
+        description="La lista degli strumenti utilizzati indica i Linguaggi di programmazione,
+        i Framework e le Librerie o App che ho usato in questa esperienza lavorativa"
       />
     </>
   )
@@ -63,8 +63,8 @@ export const query = graphql`
       frontmatter {
         company
         jobTitle
-        dateFrom(formatString: "MMM YYYY")
-        dateTo(formatString: "MMM YYYY")
+        dateFrom(formatString: "MMM YYYY", locale: "it-IT")
+        dateTo(formatString: "MMM YYYY", locale: "it-IT")
         images {
           title
           description
